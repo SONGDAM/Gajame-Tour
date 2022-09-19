@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+  .sidebar-button {
+    display: none !important;
+  }
+
+  .landing-image {
+    margin-top: 3.8rem !important;
+    height: 100vh;
+  }
+
+  .image-container {
+    top: -4rem !important;
+  }
+
+  .scroll-icon {
+    top: 7.8rem !important;
+    right: 5rem !important;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .landing-first-item,
+  .landing-second-item {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-menu {
+    display: none !important;
+  }
+  .landing-image {
+    height: 200rem !important;
+  }
+
+  .sidebar-button {
+    margin-bottom: 0.4rem !important;
+    margin-right: 0.2rem !important;
+    z-index: 222 !important;
+  }
+}
