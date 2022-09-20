@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { HeaderTheme } from '../styles/style';
+import { HeaderTheme, HeaderMenu } from '../styles/style';
 import hamburger from '../assets/icon/hamburger-button.svg';
 import close from '../assets/icon/close.svg';
-import { Box, Flex } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import Sidebar from './Sidebar';
 
 const Header = () => {
@@ -18,23 +18,22 @@ const Header = () => {
         <Link href='/'>
           <a>Local Tour</a>
         </Link>
-        <Box>
-          <Flex gap='1rem' className='header-menu'>
-            <Box>
-              <Link href='/ask'>
-                <a>ask us</a>
-              </Link>
-            </Box>
-            <Box>
-              <Link href='/about'>
-                <a>about</a>
-              </Link>
-            </Box>
-            <Box>
-              <a href='http://www.gajame.com/'>gajame</a>
-            </Box>
-          </Flex>
-        </Box>
+        <HeaderMenu>
+          <Box>
+            <Link href='/ask'>
+              <a>ask us</a>
+            </Link>
+          </Box>
+          <Box>
+            <Link href='/about'>
+              <a>about</a>
+            </Link>
+          </Box>
+          <Box>
+            <a href='http://www.gajame.com/'>gajame</a>
+          </Box>
+        </HeaderMenu>
+
         {isSidebarOpen ? (
           <Image src={close} alt='' onClick={handleSidebar} className='sidebar-button' />
         ) : (

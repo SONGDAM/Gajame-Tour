@@ -22,6 +22,16 @@ export const HeaderTheme = styled.header`
   }
 `;
 
+export const HeaderMenu = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  left: 28rem;
+  bottom: 1rem;
+`;
+
 export const ImageContainer = styled.div`
   width: 24.8rem;
   margin-top: 4rem;
