@@ -19,7 +19,7 @@ const Header = () => {
           <a>Local Tour</a>
         </Link>
         <Box>
-          <Flex gap='1rem' position='relative' left='28.8rem' top='-0.4rem' className='header-menu'>
+          <Flex gap='1rem' className='header-menu'>
             <Box>
               <Link href='/ask'>
                 <a>ask us</a>

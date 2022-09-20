@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) {
+  .header-menu {
+    margin-left: 52rem !important;
+  }
+
   .sidebar-button {
     display: none !important;
   }
