@@ -39,10 +39,6 @@
 /*           desktop        */
 
 @media screen and (min-width: 1000px) {
-  /* .header-menu {
-    margin-left: 38rem !important;
-  } */
-
   .header a {
     margin-top: -6px;
   }

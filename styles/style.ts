@@ -28,7 +28,7 @@ export const HeaderMenu = styled.div`
   align-items: center;
   gap: 10px;
   position: relative;
-  left: 40rem;
+  left: 28rem !important;
   bottom: 1rem;
 `;
 
