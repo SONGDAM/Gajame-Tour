@@ -23,13 +23,13 @@ export const HeaderTheme = styled.header`
 `;
 
 export const HeaderMenu = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  position: relative;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+  position: relative !important;
   left: 28rem !important;
-  bottom: 1rem;
+  bottom: 1rem !important;
 `;
 
 export const ImageContainer = styled.div`
