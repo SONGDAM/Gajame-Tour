@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-export const HeaderTheme = styled.header`
+export const HeaderTheme = styled('header')`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -24,7 +24,7 @@ export const HeaderTheme = styled.header`
 
 export const HeaderMenu = styled.div`
   display: flex !important;
-  justify-content: center !important;
+  justify-content: flex-end;
   align-items: center !important;
   gap: 10px !important;
   position: relative !important;
