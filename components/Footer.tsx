@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Box, Flex } from '@chakra-ui/react';
 import { FooterWrapper } from '../styles/style';
 

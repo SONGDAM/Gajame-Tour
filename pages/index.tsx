@@ -26,7 +26,7 @@ const Home = () => {
       <Header />
 
       <ImageContainer className='image-container'>
-        <p>이미지 영역입니다</p>
+        <p className='landing-text'>이미지 영역입니다</p>
         <Image src={dummy} className='landing-image' unoptimized={true} layout='fill' />
         <IconButton
           aria-label='Search database'

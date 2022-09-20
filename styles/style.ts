@@ -23,7 +23,7 @@ export const HeaderTheme = styled.header`
 `;
 
 export const ImageContainer = styled.div`
-  width: 26rem;
+  width: 24.8rem;
   margin-top: 4rem;
   display: flex;
   position: relative;

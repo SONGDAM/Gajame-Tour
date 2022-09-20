@@ -4,17 +4,28 @@
   }
 
   .landing-image {
-    margin-top: 3.8rem !important;
-    height: 100vh;
+    margin-top: 4rem !important;
+    height: 220rem !important;
   }
 
   .image-container {
     top: -4rem !important;
+    height: 40rem !important;
+  }
+
+  .header a {
+    margin-top: -6px;
+    font-size: 1rem;
+  }
+
+  .image-container > p {
+    font-size: 8rem;
   }
 
   .scroll-icon {
-    top: 7.8rem !important;
-    right: 5rem !important;
+    position: relative !important;
+    top: 10rem !important;
+    right: 8rem !important;
   }
 
   ::-webkit-scrollbar {
@@ -24,7 +35,63 @@
   .landing-second-item {
     flex-direction: column !important;
   }
+
+  .landing-text {
+    font-size: 2rem !important;
+  }
 }
+
+/*           desktop        */
+
+@media screen and (min-width: 1000px) {
+  .header-menu {
+    display: block;
+    margin-left: 14rem !important;
+  }
+
+  .header a {
+    margin-top: -6px;
+  }
+
+  .form-wrapper {
+    margin-left: 8rem;
+    margin-top: 28rem;
+    width: 48rem;
+    height: 60rem;
+  }
+
+  .form-wrapper label {
+    font-size: 1rem;
+  }
+
+  .form-wrapper input {
+    width: 42rem;
+    height: 4rem;
+    font-size: 0.6rem;
+    margin-bottom: 4rem;
+  }
+
+  .form-wrapper textarea {
+    width: 42rem;
+  }
+
+  .form-wrapper button {
+    margin-top: 2rem;
+    margin-left: 14rem;
+    width: 14rem;
+    height: 2.8rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-menu {
+    display: block;
+    margin-left: 32rem !important;
+  }
+}
+
+/*      mobile     */
 
 @media screen and (max-width: 768px) {
   .header-menu {
