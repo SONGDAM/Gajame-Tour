@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { Input, Button, Box, Textarea } from '@chakra-ui/react';
 import { debounce } from 'lodash';
 import { ErrorMessage, FormWrapper } from '../styles/style';
+import Router from 'next/router';
 import Header from '../components/Header';
 import emailJs from '@emailjs/browser';
 import Swal from 'sweetalert2';
@@ -26,6 +27,7 @@ const ask = () => {
       emailJs.send('service_v69alin', 'template_7gn7w38', data, 'vl9M2ZLeDiCWI11Cn').then(
         () => {
           Swal.fire('문의가 등록되었습니다', '조금만 기다려주세요', 'success');
+          Router.push('/');
         },
         (error) => {
           console.warn(error, 'error: Check the network response');

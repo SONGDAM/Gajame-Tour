@@ -38,7 +38,6 @@ export const ImageContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100vw;
-
   flex-wrap: wrap;
   padding-top: 12rem;
   height: 33.8rem;

@@ -1,41 +1,3 @@
-@media screen and (min-width: 768px) {
-  /* .sidebar-button {
-    display: none !important;
-  }
-
-  .image-container {
-    top: -0.2rem !important;
-    height: 40rem !important;
-  }
-
-  .header a {
-    margin-top: -6px;
-    font-size: 1rem !important;
-  }
-
-  .image-container > p {
-    font-size: 8rem;
-  }
-
-  .scroll-icon {
-    position: relative !important;
-    top: 6rem !important;
-    right: 8rem !important;
-  } */
-
-  /* ::-webkit-scrollbar {
-    display: none;
-  }
-  .landing-first-item,
-  .landing-second-item {
-    flex-direction: column !important;
-  }
-
-  .landing-text {
-    font-size: 2rem !important;
-  } */
-}
-
 /*           desktop        */
 
 @media screen and (min-width: 1000px) {
@@ -51,13 +13,13 @@
   }
 
   .form-wrapper label {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .form-wrapper input {
     width: 42rem;
     height: 4rem;
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin-bottom: 4rem;
   }
 
