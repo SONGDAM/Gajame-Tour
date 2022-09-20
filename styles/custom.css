@@ -3,13 +3,8 @@
     display: none !important;
   }
 
-  .landing-image {
-    margin-top: 4rem !important;
-    height: 220rem !important;
-  }
-
   .image-container {
-    top: -4rem !important;
+    top: 1rem !important;
     height: 40rem !important;
   }
 
@@ -43,7 +38,8 @@
 
 @media screen and (min-width: 1500px) {
   .header-menu {
-    margin-left: 16rem !important;
+    position: relative !important;
+    left: 32rem !important;
   }
 }
 
