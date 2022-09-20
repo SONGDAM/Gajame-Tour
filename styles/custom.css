@@ -15,7 +15,7 @@
 
   .header a {
     margin-top: -6px;
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .image-container > p {
@@ -24,7 +24,7 @@
 
   .scroll-icon {
     position: relative !important;
-    top: 10rem !important;
+    top: 6rem !important;
     right: 8rem !important;
   }
 
@@ -86,7 +86,7 @@
 
 @media screen and (min-width: 1200px) {
   .header-menu {
-    display: block;
+    display: block !important;
     margin-left: 32rem !important;
   }
 }
