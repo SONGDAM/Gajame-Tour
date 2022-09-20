@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 
-export const HeaderTheme = styled('header')`
+export const HeaderTheme = styled.header`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -15,6 +15,7 @@ export const HeaderTheme = styled('header')`
   font-size: 1.4rem;
   &:nth-child(1) {
     right: 1.4rem;
+
     top: 0.6rem;
   }
   a {
