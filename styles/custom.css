@@ -4,7 +4,7 @@
   }
 
   .image-container {
-    top: 1rem !important;
+    top: -0.2rem !important;
     height: 40rem !important;
   }
 
@@ -36,19 +36,12 @@
   }
 }
 
-@media screen and (min-width: 1500px) {
-  .header-menu {
-    position: relative !important;
-    left: 32rem !important;
-  }
-}
-
 /*           desktop        */
 
 @media screen and (min-width: 1000px) {
   .header-menu {
     display: block;
-    margin-left: 14.8rem !important;
+    margin-left: 36rem !important;
   }
 
   .header a {
