@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-  .sidebar-button {
+  /* .sidebar-button {
     display: none !important;
   }
 
@@ -21,9 +21,9 @@
     position: relative !important;
     top: 6rem !important;
     right: 8rem !important;
-  }
+  } */
 
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     display: none;
   }
   .landing-first-item,
@@ -33,15 +33,15 @@
 
   .landing-text {
     font-size: 2rem !important;
-  }
+  } */
 }
 
 /*           desktop        */
 
 @media screen and (min-width: 1000px) {
-  .header a {
+  /* .header a {
     margin-top: -6px;
-  }
+  } */
 
   .form-wrapper {
     margin-left: 8rem;
@@ -77,7 +77,7 @@
 /*      mobile     */
 
 @media screen and (max-width: 768px) {
-  .header-menu {
+  /* .header-menu {
     display: none !important;
   }
   .landing-image {
@@ -88,5 +88,5 @@
     margin-bottom: 0.4rem !important;
     margin-right: 0.2rem !important;
     z-index: 222 !important;
-  }
+  } */
 }

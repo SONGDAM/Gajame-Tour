@@ -1,36 +1,33 @@
+import { Box } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 
 export const HeaderTheme = styled.header`
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   position: fixed;
-  top: 0;
-  left: 1rem;
-  z-index: 9999;
-  margin-top: 12px;
-  padding-left: 0.4rem;
-  padding-right: 0.4rem;
-  font-size: 1.4rem;
-  &:nth-child(1) {
-    right: 1.4rem;
+  box-sizing: border-box;
 
-    top: 0.6rem;
-  }
-  a {
-    padding-top: 4px;
-  }
+  align-items: center;
+
+  background-color: white;
+
+  width: 100%;
+  height: 64px;
+
+  justify-content: space-between;
+
+  top: 0;
+
+  z-index: 9999;
+  font-size: 1.4rem;
+  padding: 0.4rem 1rem;
 `;
 
-export const HeaderMenu = styled.div`
-  display: flex !important;
-  justify-content: flex-end;
-  align-items: center !important;
-  gap: 10px !important;
-  position: relative !important;
-  left: 28rem !important;
-  bottom: 1rem !important;
+export const HeaderMenu = styled(Box)`
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
 `;
 
 export const ImageContainer = styled.div`
