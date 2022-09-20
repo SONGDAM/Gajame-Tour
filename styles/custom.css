@@ -41,6 +41,12 @@
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .header-menu {
+    margin-left: 16rem !important;
+  }
+}
+
 /*           desktop        */
 
 @media screen and (min-width: 1000px) {
