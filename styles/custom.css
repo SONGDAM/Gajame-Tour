@@ -46,7 +46,7 @@
 @media screen and (min-width: 1000px) {
   .header-menu {
     display: block;
-    margin-left: 14rem !important;
+    margin-left: 14.8rem !important;
   }
 
   .header a {
@@ -81,13 +81,6 @@
     width: 14rem;
     height: 2.8rem;
     font-size: 1rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .header-menu {
-    display: block !important;
-    margin-left: 32rem !important;
   }
 }
 
